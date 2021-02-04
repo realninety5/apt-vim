@@ -40,7 +40,7 @@ done
 
 # Execute apt-vim init
 cd ${HOME}/apt-vim
-python - <<EOF
+python3 - <<EOF
 import imp, os
 print('apt-vim setup starting')
 HOME = os.path.expanduser("~")
